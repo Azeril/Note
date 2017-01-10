@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Mango Film Festival 2016 片单
 excerpt: "🎬 与电影相伴的一年"
 updated: 2017-01-01 1:08
