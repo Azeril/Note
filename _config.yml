@@ -5,16 +5,16 @@ google_verify:       # Put your Google Verification here
 google_analytics:    # Put your Google Analytics code
 
 # Author Info
-author_name:        "Az."
+author_name:        "Azeril"
 author_email:       azeril@live.cn 
-author_gravatar:    a2d8ab3a128c2cadeb466e40f9ad664f # Gravatar md5 hash
+author_gravatar:    98678d8e80bb12ba5fa990013b832c85 # Gravatar md5 hash
 twitter_username:   
 github_username:    Azeril # GitHub username
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Beijing # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 highlighter:        rouge
