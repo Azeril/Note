@@ -1,11 +1,15 @@
 ---
+layout: post
 title: Mango Film Festival 2016 片单
 excerpt: "🎬 与电影相伴的一年"
 updated: 2017-01-01 1:08
 tags: [Film, ]
+image:
+  feature: windows.jpg
+  credit: Azeril
+  creditlink: http://azeril.me
 ---
 
-{% include _toc.html %}
 
 Mango Film Festival 2016 片单
 
