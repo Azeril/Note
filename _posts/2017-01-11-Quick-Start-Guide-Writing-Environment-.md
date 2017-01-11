@@ -102,7 +102,7 @@ $cd ~/Your_Blog_Path && git add . ; git commit -m "Add a new post" ; git push ; 
 
 ```
 # 添加新博文
-alias pst="cd ~/Your_Blog_Path && git add . ; git commit -m 'Add a new post' ; git push ; sleep 0.5s ; open Your_blog_Website" 
+alias pst="cd ~/Your_Blog_Path && git add . ; git commit -m 'Add a new post' ; git push ; sleep 0.5s ; open 'Your_blog_Website'" 
 ```
 
 - 更新博客设定:
