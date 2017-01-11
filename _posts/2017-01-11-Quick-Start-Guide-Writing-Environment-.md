@@ -64,6 +64,6 @@ alias nut="nuts ; git push"
 
 
 ---
-
+cd ~/Pages && git add . ; git commit -m "Add a new post" ; git push
 
 cd ~/Pages && git add . ; git commit -m "Add a new post" ; sleep 0.3s ; git push
