@@ -47,7 +47,7 @@ image:
 ## 快速推送博文更新
 
 
-alias pagespost="cd ~/Pages && git add . ; git commit -m "Add a new post" ; git status | git push"
+alias pagespost="cd ~/Pages && git add . ; git commit -m "Add a new post" ; git push"
 
 alias pgs="pagespost ; git push"
 
@@ -66,4 +66,4 @@ alias nut="nuts ; git push"
 ---
 
 
-cd ~/Pages && git add . ; git commit -m "Add a new post" ; git status ; sleep 0.3s ; git push
+cd ~/Pages && git add . ; git commit -m "Add a new post" ; sleep 0.3s ; git push
