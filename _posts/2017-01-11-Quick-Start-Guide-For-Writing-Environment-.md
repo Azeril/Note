@@ -126,6 +126,12 @@ alias blg="cd ~/Your_Blog_Path && git add . ; git commit -m 'update the files' ;
 alias nuts="git add . ; git commit -m 'update the files' ; git push"
 ```
 
+
+最终，在设定完成后，使用短命令创建博客文档和推送博客更新的呈现效果：
+
+
+![QuickStartGuideForBlogWriting](http://dreamofbook.qiniudn.com/VideoQuickStartGuideForBlogWriting.gif)
+
 ## 注释
 
 为方便理解，对于以上的命令集中几个命令做一简要注释。
@@ -137,3 +143,5 @@ alias nuts="git add . ; git commit -m 'update the files' ; git push"
 - vim 命令的使用，vim 的命令这里不多说了。
 - alias 添加 alias 很简单，alias Short_CMD="Long_CMD"。  
 - source 让 bash 配置生效的操作。在退出 vim 界面返回终端主界面时，执行 `source ~/.bashrc` 或 `source ~/.zshrc`（如果你使用的是 zsh 或 oh my zsh）。
+
+
