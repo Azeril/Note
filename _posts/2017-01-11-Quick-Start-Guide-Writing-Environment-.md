@@ -46,22 +46,40 @@ image:
 
 ## 快速推送博文更新
 
+GitHub 是非常棒的工具，通过 GitHub 的客户端、命令行和网页版版，现在我们能越加方便地使用基于 GitHub 的各种功能。
 
-alias pagespost="cd ~/Pages && git add . ; git commit -m "Add a new post" ; git push"
+当然，在追求效率的时候，还是可以对于日常操作进行优化的：
 
-alias pgs="pagespost ; git push"
+使用客户端的方案：
 
-
-alias uppages="cd ~/Pages && git add . ; git commit -m "update the files" | git push"
-
-
-alias upp="uppages ; git push"
+1. 打开 GitHub Desktop
+2. 切换到对应博客仓库，添加更新描述，点击确认
+3. 点击同步
 
 
-alias nuts="git add . ; git commit -m "update the files" | git push"
 
-alias nut="nuts ; git push"
 
+
+合成的「添加-提交和推送」.
+
+在任意目录为博客仓库执行快速更新命令集：
+
+```
+# 添加新博文
+alias pst="cd ~/Your_Blog_Path && git add . ; git commit -m 'Add a new post' ; git push ; sleep 0.5s ; open Your_blog_Website" 
+```
+
+
+```
+# 更新博客设定
+alias blg="cd ~/Your_Blog_Path && git add . ; git commit -m 'update the files' ; git push" 
+```
+
+在任意仓库内执行快速更新命令集：
+
+```
+alias nuts="git add . ; git commit -m 'update the files' ; git push"
+```
 
 ---
 cd ~/Pages && git add . ; git commit -m 'Add a new post' ; git push
