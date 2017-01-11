@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
-excerpt: ""
-tags: [book, ]
+title: 从终端开始优化 GitHub Pages 博客写作环境
+excerpt: "如何快速创建博客模板文档开始写作，以及在博客写作完成后快速发布的心得"
+tags: [ Guide, Mac,]
 image:
   feature: windows.jpg
   credit: Azeril
@@ -133,3 +133,6 @@ alias nuts="git add . ; git commit -m 'update the files' ; git push"
 - open 用于打开 Finder 和 url。这篇中使用了 `open -a Application_name file_name``$open .` 和 `$open url` 3 种，分别对应用用某个软件在桌面上打开某个文档，用Finder 打开终端当前所处的目录和用（默认）浏览器打开网址。 
 - date 命令用于生成时间。`$date +%y%m%d `，在终端中打印出（6 位数）当前日期。稍作修改即可作为 Jekyll 博客专用的年月日加标题格式 Markdown 博文文档。
 - sleep 延迟命令，用于推迟后续操作的执行时间。`sleep number(unit)` 进行设定，数字后不跟单位，默认时间单位为秒。
+- vim 命令的使用，vim 的命令这里不多说了。
+- alias 添加 alias 很简单，alias Short_CMD="Long_CMD"。  
+- source 让 bash 配置生效的操作。在退出 vim 界面返回终端主界面时，执行 `source ~/.bashrc` 或 `source ~/.zshrc`（如果你使用的是 zsh 或 oh my zsh）。
