@@ -6,9 +6,8 @@ tags: [book, ]
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.me
+  creditlink: http://azeril.com
 ---
 
-{% include _toc.html %}
 
 Start writing...
