@@ -1,6 +1,9 @@
 ---
 layout: page
 title: About
+permalink: /About
+comment: false
+share: false
 ---
 
 属于我的吉光片羽
