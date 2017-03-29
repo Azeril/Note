@@ -13,6 +13,9 @@ image:
 
 ## 概述
 
+- 网景公司 1995 年发布 JavaScript;
+- ECMAScript（European Computer Manufacturers Association）是一种语言标准，而 JavaScript 是网景公司对该标准的实现方式。最新的 ES6 发布于 2015 年 6 月。
+
 JavaScript 能直接嵌入在网页任何地方，但通常放在网页的 <head> 中，由 <script></script> 包裹，能被浏览器直接执行。它也可以放在单独 .js 文件，通过 <script src="..."></script> 引入。
 
 编写 JavaScript：使用诸如 Sublime Text 一类的编辑器。
