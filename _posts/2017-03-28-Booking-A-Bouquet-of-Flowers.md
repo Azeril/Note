@@ -52,7 +52,7 @@ image:
 
 目前为止，只尝试了花野仙踪这一家的包月服务。价格在几家里算高的，比风评不佳的花点时间高了快一倍多，但就目前收到的花束来说，第一次的花束，甚至都不乏惊喜。
 
-[FlowerMissAliceFlowers](http://dreamofbook.qiniudn.com/FlowerMissAliceFlowers0328.jpg)
+![FlowerMissAliceFlowers](http://dreamofbook.qiniudn.com/FlowerMissAliceFlowers0328.jpg)
 
-生活的种种，不乏需要耐心和勇气去经历的方面，倘若能享受一番鲜花美酒的快乐，不可谓不是秉烛游的洒脱吧。沉迷自不可取，可那偶尔的想望或期待之外的美好，都值得，被成全。
+生活的种种，不乏需要耐心和勇气去经历的方面。倘若身处其中，能享受一番鲜花美酒的快乐，不可谓不是秉烛游的看开和洒脱吧。沉迷自不可取，可那偶尔的想望或期待之外的美好，都值得，被成全。
 
