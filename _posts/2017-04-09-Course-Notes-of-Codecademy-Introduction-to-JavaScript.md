@@ -65,20 +65,23 @@ Comparisons need two things to compare and they will always return a boolean (tr
 
 Comparison operators, like <, >, <=, and >= can compare two variables. After they compare, they always return either true or false.
 
+```
 * > Greater than
 * < Less than
 * <= Less than or equal to
 * >= Greater than or equal to
 * === Equal to (To check if two things equal each other)
 * !== Not equal to 
+```
 
 Logical Operators, like &&, ||, !==, and !, can compare two variables to see if a certain condition exists:
 
+```
 * && Checks if both sides are true.
 * || Checks if either side is true.
 * ! Changes a variable that is true to false, and vice versa.
 * !== Checks if both sides are not equal.
-
+```
 
 
 ### Conditionals
@@ -154,20 +157,19 @@ In programming, making decisions with code is called control flow.
 
 This sentence looks fairly similar when we write it with JavaScript. See for yourself:
 
-```
-var needCoffee = true;
-if (needCoffee) {
-    console.log('Finding coffee');
-} else {
-    console.log('Keep on keeping on!');
-}
-```
+
+    var needCoffee = true;
+    if (needCoffee) {
+        console.log('Finding coffee');
+        } else {
+        console.log('Keep on keeping on!');
+    }
 
 
-* If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.
-* `needCoffee` is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { ... } part. In this case, we'd see 'Finding coffee' log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks.
-* If we adjusted needCoffee to be false, only the else's console.log will run.
-* if/else statements are how we can process yes/no questions programmatically.
+- If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.
+- `needCoffee` is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { ... } part. In this case, we'd see 'Finding coffee' log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks.
+- If we adjusted needCoffee to be false, only the else's console.log will run.
+- if/else statements are how we can process yes/no questions programmatically.
 
 Why is there a \ in 'I lead a muggle\'s life.'? Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.
 
