@@ -140,12 +140,16 @@ A variable's value is easily changed. Just pretend you are creating a new variab
 
 ## Random Number
 
-```Math.random();```
+- `Math.random();`
+
 This code will return a random number between 0 and 1. JavaScript will generate a random number for us with this code.
 
-```Math.floor(Math.random() * 50);``` Math.floor will take a decimal number, and round down to the nearest whole number. 
+- `Math.floor(Math.random() * 50);`
+ Math.floor will take a decimal number, and round down to the nearest whole number. 
+
 
 ## Control Flow
+
 In programming, making decisions with code is called control flow.
 
 This sentence looks fairly similar when we write it with JavaScript. See for yourself:
@@ -159,11 +163,11 @@ if (needCoffee) {
 }
 ```
 
+
 * If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.
-* needCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { ... } part. In this case, we'd see 'Finding coffee' log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks. 
+* `needCoffee` is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { ... } part. In this case, we'd see 'Finding coffee' log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks.
 * If we adjusted needCoffee to be false, only the else's console.log will run.
 * if/else statements are how we can process yes/no questions programmatically.
-
 
 Why is there a \ in 'I lead a muggle\'s life.'? Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.
 
