@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WeeklyNote
+title: WeeklyNote170430 一些尝试，一些转变
 excerpt: "职业生涯的转变"
 tags: [book, ]
 image:
