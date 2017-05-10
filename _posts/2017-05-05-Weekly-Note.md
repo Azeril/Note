@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BJIFF 2017 光影瞬间
-excerpt: "记 17 年我的北京国际电影节"
-tags: [Film, Life,]
+title: jQuery 快速入门基础篇
+excerpt: ""
+tags: [book, ]
 image:
   feature: windows.jpg
   credit: Azeril
@@ -10,5 +10,7 @@ image:
 ---
 
 
+目前只能写基础篇了...
 
+XD 
 
